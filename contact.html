@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home">
+    <meta name="robots" content="index,follow">
+    <title>Gibson | Contact Support</title>
+    <link rel="icon" href="./img/letterG.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+
+    
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><span class="span1"><img src="./img/gibson_logo.png" alt="Gibson Logo" class="img-thumbnail imgLogo"></span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Shop</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="elecGuitar.html">Electric</a></li>
+                                <li><a class="dropdown-item" href="acusGuitar.html">Acustic</a></li>
+                                <li><a class="dropdown-item" href="bass.html">Bass</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="acce.html">Accesories</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html" tabindex="-1">Contact us</a>
+                        </li>
+                    </ul>
+                    <a href="#"><img src="./img/car.png" class="imgLogo2" alt="Add to Car"></a>
+                    
+                    <form class="d-flex">
+                        <div class="col-1"></div>
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        
+        <!-- An old way to use county picker from selec -->
+        <!-- <section>
+            <div class="container">
+                <link rel="stylesheet" href="//unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css" type="text/css" />
+                <link rel="stylesheet" href="//unpkg.com/bootstrap-select@1.12.4/dist/css/bootstrap-select.min.css" type="text/css" />
+                <link rel="stylesheet" href="//unpkg.com/bootstrap-select-country@4.0.0/dist/css/bootstrap-select-country.min.css" type="text/css" />
+        
+                <script src="//unpkg.com/jquery@3.4.1/dist/jquery.min.js"></script>
+                <script src="//unpkg.com/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+                <script src="//unpkg.com/bootstrap-select@1.12.4/dist/js/bootstrap-select.min.js"></script>
+                <script src="//unpkg.com/bootstrap-select-country@4.0.0/dist/js/bootstrap-select-country.min.js"></script>
+                <select class="selectpicker countrypicker" data-flag="true" ></select>
+                <script>
+                    $('.countrypicker').countrypicker();
+                </script>
+            </div>
+        </section> -->
+
+        <section class="bg-light">
+            <div class="container">
+                <div class="row mb-3">
+                    <div class="offset-lg-2 col-lg-8 text-center">
+                        <br>
+                        <h2 class="border-bottom border-dark border-4 pb-3">Contact Support</h2>                        
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="offset-lg-2 col-lg-8">
+                            <form class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="inputNames" class="form-label">Names</label>
+                                    <input type="text" class="form-control" id="inputNames">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputSurnames" class="form-label">Surnames</label>
+                                    <input type="text" class="form-control" id="inputSurames">
+                                </div>
+                                <div class="col-12">
+                                    <label for="inputEmail4" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail4">
+                                </div>
+                                <div class="col-12">
+                                    <label for="inputProductSerial" class="form-label">Product Serial Number</label>
+                                    <input type="text" class="form-control" id="inputProductSerial" >
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputState" class="form-label">Country</label>
+                                    <select class="countries form-select" id="countries" name="countries"></select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputCity" class="form-label">City</label>
+                                    <input type="text" class="form-control" id="inputCity">
+                                </div>
+                                <div class="col-12">
+                                  <label for="inputAddress" class="form-label">Address</label>
+                                  <input type="text" class="form-control" id="inputAddress">
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px;"></textarea>
+                                        <label for="floatingTextarea2">Comments</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                      Check me out
+                                    </label>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <button type="submit" class="btn btn-dark">Submit</button>
+                                </div>
+                            </form>
+                            <br><br>
+                            <div class="row align-content-center">
+                                <div class="col ">
+                                    <p>Gibson Brands, Inc.
+
+                                        ATTN: Customer Service
+                                        
+                                        209 10th Ave South
+                                        
+                                        Suite 460
+                                        
+                                        Nashville, TN 37203
+                                        
+                                        service@gibson.com
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+            </div>
+        </section>
+
+        
+    </main>
+    <footer class="bg-dark container-fluid text-center">
+        <br>
+        <div class="container">
+            <div class="row mb-3">
+                <div class="offset-lg-0 col-lg-12 text-center">
+                    <h2 class="border-bottom border-secondary border-4 pb-3"></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-5"></div>
+            <div class="col">
+                <a href="https://www.facebook.com/Gibson/" target="_blank">
+                    <img src="./img/fb.png" class="imgLogo2" alt="Facebook">
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="http://instagram.com/gibsonguitar" target="_blank">
+                    <img src="./img/insta.png" class="imgLogo2" alt="Instagram">
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="http://youtube.com/GibsonGuitarCorp" target="_blank">
+                    <img src="./img/yt.png" class="imgLogo2" alt="YouTube">
+                </a>
+            </div>
+            <div class="col-5"></div>
+        </div>
+        <br>
+        <span class="copy">&copy;2022 Gibson<br>Created By JSalán</span>
+        <div class="container">
+            <div class="row mb-3">
+                <div class="offset-lg-0 col-lg-12 text-center">
+                    <h2 class="border-bottom border-secondary border-4 pb-3"></h2>
+                </div>
+            </div>
+        </div>
+        <br>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+</html>

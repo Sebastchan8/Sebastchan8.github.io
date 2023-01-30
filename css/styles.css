@@ -1,0 +1,42 @@
+.span1{
+    color: black;
+    background-color: white;
+    font-size: 40px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.imgLogo{
+    width:100px;
+}
+
+.imgLogo2{
+    width:40px;
+}
+
+.imgLogo3{
+    width:60px;
+}
+
+.boldClass{
+    font-weight: bold;
+}
+
+.popup{
+    color: white;
+}
+
+.copy{
+    color:white;
+    font-size:16px;
+}
+
+.imgBio{
+    width:100%;
+}
+
+.accordion-button:not(.collapsed){
+    color: inherit;
+    background: #1c354c;
+    color: white;
+}
